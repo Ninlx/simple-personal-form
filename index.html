@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- webpage title -->
+  <title>Person Form</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/apple-touch-icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/android-chrome-192x192.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/android-chrome-512x512.png" type="image/x-icon">
+  <!-- seo -->
+  <meta name="author" content="Your Developer">
+  <meta name="keywords" content="Your Developer">
+  <meta name="description" content="Your Developer">
+  <!-- social media meta -->
+  <meta property="og:description" content="Your Developer">
+  <meta property="og:image" content="https://www.yourdeveloper.com">
+  <meta property="og:site_name" content="Your Developer">
+  <meta property="og:title" content="Your Developer">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.yourdeveloper.com">
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Your Developer">
+  <meta name="twitter:creator" content="@Your Developer">
+  <meta name="twitter:title" content="Your Developer">
+  <meta name="twitter:description" content="yourdeveloper gwaaapa">
+  <meta name="twitter:image" content="http://www.yourdeveloper/assests/img.com">
+  <!-- stylesheet file link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- script file link -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <section>
+    <form action="" class="container pt-5">
+      <div class="row g-3">
+        <div class="col-md-12">
+          <h1 class="text-capitalize">person form</h1>
+        </div>
+        <hr class="mt-2 mb-0">
+        <!-- error message -->
+        <div class="col-md-12 py-3">
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <p class="text-capitalize text-danger mb-0">error messages.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+          <!-- ===== title ===== -->
+          <div class="col-md-2">
+            <label for="title" class="form-label text-capitalize">title</label>
+            <input type="text" class="form-control" id="title" placeholder="Mr.">
+          </div>
+          <!-- ===== first name ===== -->
+          <div class="col-md-5">
+            <label for="first__name" class="form-label text-capitalize"First Name>first name</label>
+            <input type="text" name="" id="first__name" class="form-control" placeholder="Chee Kin">
+          </div>
+          <!-- ===== last name ===== -->
+          <div class="col-md-5">
+            <label for="last__name" class="form-label text-capitalize"First Name>last name</label>
+            <input type="text" name="" id="last__name" class="form-control" placeholder="Lim">
+          </div>
+          <!-- ===== gender ===== -->
+          <div class="col-md-6">
+            <label for="gender" class="form-label text-capitalize">gender</label>
+            <select class="form-select" id="gender" aria-label="Default select example">
+              <option style="display: none;"></option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+          <!-- ===== date of birth ===== -->
+          <div class="col-md-6">
+            <label for="Date__of__birth" class="form-label">Date of Birth</label>
+            <input type="date" name="" id="Date__of__birth" class="form-control">
+          </div>
+          <!-- ===== address ===== -->
+          <div class="col-md-12">
+            <label for="address" class="form-label text-capitalize">address</label>
+            <input type="text" name="" id="your__address" class="form-control text-capitalize" placeholder="Street">
+          </div>
+          <!-- ===== street ===== -->
+          <div class="col-md-6">
+            <input type="text" name="" id="address" class="form-control text-capitalize" placeholder="Street">
+          </div>
+          <!-- ===== state ===== -->
+          <div class="col-md-6">
+            <input type="text" name="" id="state" class="form-control text-capitalize" placeholder="State">
+          </div>
+          <!-- ===== post code ===== -->
+          <div class="col-md-6">
+            <input type="text" name="" id="postCode" class="form-control text-capitalize" placeholder="Post Code">
+          </div>
+          <!-- ===== country ===== -->
+          <div class="col-md-6">
+            <select class="form-select" id="country" aria-label="Default select example">
+              <option hidden selected>Country</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+        <!-- ===== horizontal rule -->
+        <hr class="m-0 p-0 cstm__hr">
+        <!-- ===== register button ===== -->
+        <div class="col-md-12">
+          <div class="d-grid align-items-center justify-content-end pb-0 mb-5 cstm__div">
+            <button class="btn btn-primary text-capitalize cstm__button" type="button">register</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+  <!-- header or navbar section -->
+  <section>
+    <header class="header bg-dark">
+      <div class="container">
+        <div class="row py-2">
+          <!-- brand name -->
+          <div class="col-md-4 col-lg-5 d-flex align-items-center">
+            <a href="#" class="navbar-brand text-light text-capitalize">project name</a>
+          </div>
+          <!-- email -->
+          <div class="col-md-3 px-1">
+            <input type="email" name="" id="your__email" placeholder="Email" class="form-control">
+          </div>
+          <!-- password -->
+          <div class="col-md-3 px-1">
+            <input type="password" name="" id="your__password" placeholder="Password" class="form-control">
+          </div>
+          <!-- sign in button -->
+          <div class="col-md-2 col-lg-1 px-1">
+            <button type="button" class="btn btn-success header__button">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner section -->
+    <div class="banner py-5" style="background: rgba(0,0,0,0.15);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- title -->
+            <div class="title">
+              <h1 class="text-capitalize text-dark fw-bolder" style="font-size: 3.5em;">hello, world!</h1>
+            </div>
+          </div>
+          <!-- description -->
+          <div class="col-md-12">
+            <div class="desc mt-2">
+              <p class="text-dark" style="font-size: 1.5em;">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting places of content. Use it as a starting point to create something more unique.</p>
+            </div>
+          </div>
+          <!-- learn more button -->
+          <div class="col-md-12">
+            <button type="button" class="btn btn-primary fw-bold ps-4 pe-4" style="font-size: 1.2em;">Learn more »</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- card section -->
+  <section>
+    <div class="card py-5">
+      <div class="container">
+        <div class="row">
+          
+          <!-- first card heading -->
+          <div class="col-md-4">
+            <!-- card title -->
+            <div class="card-title">
+              <h2 class="text-dark text-capitalize">heading</h2>
+            </div>
+            <!-- card description -->
+            <div class="card-desc">
+              <p class="text-dark">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+              </p>
+            </div>
+            <!-- card button -->
+            <div class="card-button">
+              <button class="btn btn-outline-dark text-capitalize">view details »</button>
+            </div>
+          </div>
+          <!-- second card heading -->
+          <div class="col-md-4">
+            <!-- card title -->
+            <div class="card-title">
+              <h2 class="text-dark text-capitalize">heading</h2>
+            </div>
+            <!-- card description -->
+            <div class="card-desc">
+              <p class="text-dark">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+              </p>
+            </div>
+            <!-- card button -->
+            <div class="card-button">
+              <button class="btn btn-outline-dark text-capitalize">view details »</button>
+            </div>
+          </div>
+          <!-- third card heading -->
+          <div class="col-md-4">
+            <!-- card title -->
+            <div class="card-title">
+              <h2 class="text-dark text-capitalize">heading</h2>
+            </div>
+            <!-- card description -->
+            <div class="card-desc">
+              <p class="text-dark">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+              </p>
+            </div>
+            <!-- card button -->
+            <div class="card-button">
+              <button class="btn btn-outline-dark text-capitalize">view details »</button>
+            </div>
+          </div>
+          <hr class="my px-0 mx-0">
+          <div class="col-md-12">
+            <div class="copyright">
+              <p class="text-dark text-capitalize mb-0">&copy; company 2014</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+    </div>
+  </section>
+</body>
+</html>
